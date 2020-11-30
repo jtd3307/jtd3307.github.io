@@ -1,0 +1,141 @@
+main {
+  margin-top:  100px;
+  margin-left: 2em;
+}
+
+body {
+  background-image: url("JonathanBlur.jpg");
+  background-repeat: repeat;
+  background-attachment: fixed;
+}
+
+.white-back {
+  background-color: white;
+  width: 820px;
+  position: relative;
+  left: 50%;
+  transform: translate(-420px, -50px);
+  padding-bottom: 30px;
+  padding-top: 20px;
+  border: 2px solid black;
+  border-radius: 15px;
+}
+
+#project-back {
+  width: 1200px;
+  transform: translate(-620px, -50px);
+}
+
+.main-heading {
+  font-size: 500%;
+  text-align: center;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  position: relative;
+  margin-bottom: 30px;
+}
+
+.text-column {
+  position: relative;
+  left: 50%;
+  transform: translateX(-290px);
+  font-family: "Lucida Console", Monaco, monospace;
+  margin-top: 50px;
+  width: 600px;
+  background-color: white;
+}
+
+.content-heading {
+  font-style: italic;
+}
+
+nav.top-nav {
+  background-color: #103cc0;
+  display: flex;
+  justify-content: center;
+  box-shadow: 0px 4px 4px #0003;
+  padding-left: 2em;
+}
+
+nav.top-nav ul {
+  list-style: none;
+}
+
+nav.top-nav li {
+  font-family: "Lucida Console", Monaco, monospace;
+  font-weight: bold;
+  font-size: 150%;
+  color: #fffd;
+  margin: 5px;
+  display: inline-block;
+  padding: 15px;
+  user-select: none;
+  position: relative;
+  right: 20px;
+}
+
+nav.top-nav li:hover {
+  text-decoration: underline;
+}
+
+nav.top-nav li:active {
+  color: #fff;
+}
+
+a {
+  color: #fffd;
+  text-decoration: none;
+}
+
+.text-column a {
+  color: #103cc0;
+}
+
+.text-column a:hover {
+  text-decoration: underline;
+}
+
+.about-text a {
+  color: #103cc0
+}
+
+.about-text a:hover {
+  text-decoration: underline;
+}
+
+.top-nav .pulldown-menu {
+  display: none;
+  position: absolute;
+  background-color: black;
+  border: 1px solid #fffd;
+  border-radius: 4px;
+  top: 52px;
+  left: 5px;
+  width: 220px;
+}
+
+/*nav.top-nav .pulldown-menu li {
+  color: #333;
+  display: block;
+  font-size: 100%;
+  font-family: "Lucida Console", Monaco, monospace;
+  font-weight: bold;
+  position: relative;
+  right: 50px;
+}
+
+nav.top-nav li:hover .pulldown-menu {
+  display: block;
+}*/
+
+.about-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.about-text {
+  font-family: "Lucida Console", Monaco, monospace;
+  margin: 20px;
+  width: 400px;
+  position: relative;
+  bottom: 38px;
+}
